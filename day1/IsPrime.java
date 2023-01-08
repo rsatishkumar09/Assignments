@@ -4,21 +4,21 @@ public class IsPrime {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n = 11, i, j, count;
+		int n = 9, i, j, count;
 
 		  for (i = 1; i <= n; i++) {
 		   count = 0;
-		   for (j = 2; j <= i / 2; j++) {
+		   for (j = 1; j <= i ; j++) {
 		    if (i % j == 0) {
 		     count++;
-		     break;
+		     //break;
 		    }
 		   }
 
-		   if (count == 0) {
+		   if (count == 2) {
 		    System.out.println("Prime Number :" +i);
 		   }
-		   else if (count != 0) {
+		   else if (count != 2) {
 			    System.out.println("Non-Prime Number :" +i);
 		  }
 	}
