@@ -4,7 +4,7 @@ public class IsPrime {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n = 9, i, j, count;
+		int n = 10, i, j, count;
 
 		  for (i = 1; i <= n; i++) {
 		   count = 0;
